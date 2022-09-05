@@ -8,13 +8,18 @@
          background-color: #31B45B;
          
         }
+        .body{
+          background-image: url(https://p4.wallpaperbetter.com/wallpaper/424/585/203/iron-man-red-hd-wallpaper-preview.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
     </head>
-   <body style="background-color: #2D2B3B;">
+   <body class="body" style="background-color: #2D2B3B;">
 
     <nav class="navbar navbar-expand-lg" style="background-color: #1C2025;">
   <div class="container-fluid">
@@ -85,7 +90,7 @@
     </div>
   </div>
 </nav>
-       <h1 style="text-align: center; margin-top: 100px; color: #fff; ">Esta es mi plantilla</h1> 
+       <h1 style="text-align: center; margin-top: 100px; color: #fff; ">Esta es mi plantilla Bienvenido</h1> 
         <div class="container">
             @yield('content')
         </div>
