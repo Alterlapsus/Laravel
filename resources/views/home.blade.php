@@ -2,6 +2,12 @@
 
 
 @section('content')
+<style>
+    .card-header:hover{
+
+        background-color: transparent;
+    }
+</style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
