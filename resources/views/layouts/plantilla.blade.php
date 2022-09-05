@@ -80,7 +80,7 @@
     </div>
   </div>
 </nav>
-       <h1 style="text-align: center; margin-top: 100px;">Esta es mi plantilla</h1> 
+       <h1 style="text-align: center; margin-top: 100px; color: #fff; ">Esta es mi plantilla</h1> 
         <div class="container">
             @yield('content')
         </div>
