@@ -9,7 +9,7 @@
   </body>
 </html>
     </head>
-   <body>
+   <body style="background-color: #2D2B3B;">
 
     <nav class="navbar navbar-expand-lg" style="background-color: #1C2025;">
   <div class="container-fluid">
