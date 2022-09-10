@@ -2,14 +2,14 @@
  
 <html>
     <head>
-        <title>Israel De León - @yield('title')</title>
+        <title>Esvin Alexander - @yield('title')</title>
     <style>
       .navbar-brand:hover{
          background-color: #31B45B;
          
         }
         .body{
-          background-image: url(https://p4.wallpaperbetter.com/wallpaper/424/585/203/iron-man-red-hd-wallpaper-preview.jpg);
+          background-image: url(https://i.pinimg.com/originals/31/30/f1/3130f126b285a41d00af4873b18d4fc5.jpg);
           background-repeat: no-repeat;
           background-size: cover;
         }
@@ -21,7 +21,7 @@
     </head>
    <body class="body" style="background-color: #2D2B3B;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #1C2025;">
+    <nav class="navbar navbar-expand-lg" >
   <div class="container-fluid">
     <a class="navbar-brand" style="color: #fff;" href="#">Navbar</a>
     <button style="color: #fff;" class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,13 @@
         </li>
         <li class="nav-item dropdown">
           <a style="color: #fff;"class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Mi Menu
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="vistauno">Vista1</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -90,7 +90,7 @@
     </div>
   </div>
 </nav>
-       <h1 style="text-align: center; margin-top: 150px; color: #fff; font-size: 55px;">Esta es mi plantilla Bienvenido</h1> 
+       <h1 style="text-align: center; color: #fff; font-size: 30px;">Esta es mi plantilla Bienvenido</h1> 
         <div class="container">
             @yield('content')
         </div>
